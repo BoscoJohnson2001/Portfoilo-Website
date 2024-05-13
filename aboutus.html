@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="aboutus.css">
-  <script src="index.js"></script>
+  <!-- <script src="index.js"></script> -->
   <title>About Us</title>
 </head>
 
@@ -18,14 +18,15 @@
       <a href="./index.html">Home</a>
       <a href="./aboutus.html">About</a>
       <a href="#">Service</a>
-      <a href="#">Experience</a>
+      <a href="experience.html">Experience</a>
       <a href="portfolio.html">Work</a>
       <a href="#">Blog</a>
       <a href="./contact.html">Contact</a>
     </nav>
-    <div class="hamburger-menu">
-      <button id="hammenu" class="hamburger-btn" onclick="hamburgerfunction()"><span
-          class="fa-solid fa-bars"></span></button>
+    <div class="hamburger-menu" onclick="hamburgerfunction()">
+      <button id="hammenu" class="hamburger-btn">
+        <span class="fa-solid fa-bars" id="icon"></span>
+      </button>
     </div>
   </header>
   <div class="navi">
@@ -268,7 +269,7 @@
     </p>
   </footer>
   </div>
-  <!-- <script src="index.js"></script> -->
+  <script src="index.js"></script>
   <!-- <script type="module" src="aboutus.js"></script> -->
 </body>
 <script src="https://kit.fontawesome.com/cdc6dd237a.js" crossorigin="anonymous"></script>
