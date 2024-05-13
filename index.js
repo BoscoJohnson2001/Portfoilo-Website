@@ -1,13 +1,32 @@
+const hamburger_btn = document.getElementById("hammenu");
+const hamicon = document.getElementById("icon");
+const menuitem = document.getElementById("menuitem");
+
+// menuitem.style.display = "none";
+
 function hamburgerfunction() {
-  const hamburger_btn = document.getElementById("hammenu");
-  const menuitem = document.getElementById("menuitem");
-  hamburger_btn.addEventListener("click", (event) => {
-    if (menuitem.style.display === "none") {
-      menuitem.style.display = "flex";
-    } else {
-      menuitem.style.display = "none";
-    }
-  });
+  console.log(hamburger_btn, "hamburger_btn");
+  console.log(hamicon, "hamicon");
+
+  // hamburger_btn.addEventListener("click", (event) => {
+  // console.log("clicked");
+  if (menuitem.style.display === "none") {
+    menuitem.style.display = "flex";
+    console.log(event);
+    console.log(hamicon);
+    // if(hamicon.classList)
+    hamicon.classList.replace("fa-bars", "fa-xmark");
+
+    // console.log(hamburger_btn.classList);
+    // hamburger_btn.children.classList.remove("fa-solid fa-bars");
+    // hamburger_btn.children.classList.add("fa-solid fa-xmark");
+  } else {
+    menuitem.style.display = "none";
+    hamicon.classList.replace("fa-xmark", "fa-bars");
+  }
+  // hamicon.classList.remove();
+  // hamicon.classList.add("fa-solid fa-xmark");
+  // });
   console.log("Hello");
 }
 
