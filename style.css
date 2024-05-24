@@ -151,6 +151,10 @@ a {
   text-decoration: none;
 }
 
+.appName{
+  color: black;
+}
+
 .btn2 {
   font-size: 15px;
   background-color: #ffffff;
