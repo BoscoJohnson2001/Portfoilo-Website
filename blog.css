@@ -94,7 +94,7 @@ a {
 }
 
 .navi {
-  margin-top: 40%;
+  margin-top: 15%;
   /* margin-bottom: 20%; */
   display: flex;
   /* position: relative; */
@@ -114,6 +114,98 @@ a {
 .navi a:hover {
   color: #D4C555
 }
+
+
+.blogpost-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  /* margin: 0 20%; */
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 22%;
+  margin-top: 3%;
+  background-color: #ffffff;
+}
+
+/* .card  */
+.card-content-container {
+  padding: 5%;
+}
+
+.card-info {
+  padding-top: 2%;
+  color: #9D9A99;
+}
+
+.card-info span {
+  padding-left: 2px;
+  /* font-size: 10px; */
+}
+
+.card-info span:last-child {
+  color: #D4C555;
+  cursor: pointer;
+}
+
+.cardcon-head,
+.cardcon-head a {
+  color: black;
+  font-weight: 300;
+  margin: 10% 0;
+
+}
+
+.cardcon-head a:hover {
+  color: #d5c455;
+  cursor: pointer;
+}
+
+.card-content {
+  margin-bottom: 3%;
+}
+
+.pagination_div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+
+}
+
+.pagination_btn {
+
+  border: 1px solid rgba(128, 128, 128, 0.625);
+  border-radius: 8px;
+  padding: 8px 13px;
+  margin: 0 5px;
+  color: rgb(36, 34, 34);
+  font-size: small;
+}
+
+.pagination_btn:hover {
+  background-color: #d5c455;
+}
+
+.active {
+  background-color: #d5c455;
+}
+
+
 
 .contact_footer {
   display: flex;
